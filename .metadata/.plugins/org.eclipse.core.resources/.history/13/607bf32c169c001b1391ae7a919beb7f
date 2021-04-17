@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Diferença {
+	public static void main(String [] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		
+		int A,B,C,D,diferença;
+		diferença = A * B - C * D;
+		
+		
+		A = sc.nextInt();
+		
+		
+		B = sc.nextInt();
+		
+
+		C = sc.nextInt();
+		
+		
+		D = sc.nextInt();
+		
+		System.out.printf("A diferença entre os valores A, B, C e D é igual a", diferença);
+		
+		sc.close();
+		
+	}
+
+}
